@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<title>Demo Page</title>
+</head>
+<body>
+	<h1>{{{body}}}</h1>
+    <br>
+    {{#if queryParams}}
+        <h3>Query parameter name-value pairs:</h3>
+        <ul>
+            {{#each queryParams}}
+                <li>{{this.name}}: {{this.value}}
+            {{/each}}
+        </ul>
+    {{/if}}
+    <br>
+    {{#if postBody}}
+    <h3>Post Body parameter name-value pairs:</h3>
+        <ul>
+            {{#each postBody}}
+                <li>{{this.name}}: {{this.value}}
+            {{/each}}
+        </ul>
+    {{/if}}
+</body>
+</html>

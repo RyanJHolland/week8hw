@@ -1,0 +1,17 @@
+{
+  "name": "assignment7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assignment7.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.1",
+    "body-parser": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan James Holland",
+  "license": "ISC"
+}
